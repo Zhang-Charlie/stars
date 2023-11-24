@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void){
+
+int n,index, column, counter;
+
+printf("Enter a value for n:\n");
+scanf("%d", &n);
+                //  index >= 3
+              //3  
+                // 3 >= 1
+for(counter = n; counter >= 1 ; counter-- )
+{   
+   
+    for(index = 1;index <= counter ;index++ )
+    {   
+        printf("*");
+    }  
+    printf("\n");
+} 
+
+
+return 0;
+
+}
+
